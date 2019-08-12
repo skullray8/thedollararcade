@@ -3,54 +3,63 @@ body {
     background-color: yellow;
 }
 
-.heading {
+#maincontent {
     text-align: center;
-    color: orangered;
+    padding: 0px 120px 0px 120px;
 }
 
-.games {
-    padding: 50px 350px 100px;
-    text-align: center;
+.heading {
+    color: orangered;
 }
 
 .images {
     height: 250px;
-    width: 525px;
+    width: 500px;
+}
+
+.dollar {
+    position: fixed;
+    bottom: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 300px;
+    line-height: 300px;
+    text-align: right;
+    color: green;
+    z-index: 1;
 }
 
 .left {
-    font-family: 'Anton', sans-serif;
-    font-size: 300px;
-    text-align: right;
-    opacity: 1;
-    position: fixed;
-    color: green;
-    z-index: 1;
+    left: 0;
+    padding-right: 50px;
 }
 
 .right {
-    font-family: 'Anton', sans-serif;
-    font-size: 300px;
-    text-align: right;
-    opacity: 1;
-    position: fixed;
-    color: green;
-    z-index: 1;
+    right: 0;
+    padding-left: 50px;
 }
 
-@media screen and (max-width: 500px) {
-    .games {
-        padding: 25px 180px 50px 0px;
-        margin: 0px 0px 0px 175px;
+@media screen and (max-width: 900px) {
+    #maincontent {
         text-align: center;
+        padding: 0px 80px 0px 80px;
     }
     .images {
-        padding: 20px 0px 50px 0px;
+        height: 150px;
+        width: 300px;
     }
-    .right {
+    .dollar {
         font-size: 150px;
+        line-height: 150px;
     }
-    .left {
-        font-size: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    #maincontent {
+        text-align: center;
+        padding: 0px 50px 0px 50px;
+    }
+    .dollar {
+        font-size: 80px;
+        line-height: 80px;
     }
 }
