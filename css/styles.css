@@ -1,3 +1,61 @@
 body {
-    background: yellow;
+    font-family: 'Anton', sans-serif;
+    background-color: yellow;
+}
+
+.heading {
+    text-align: center;
+    color: orangered;
+}
+
+.games {
+    padding: 50px 350px 100px;
+    text-align: center;
+}
+
+.images {
+    height: 250px;
+    width: 525px;
+}
+
+.left {
+    font-family: 'Anton', sans-serif;
+    font-size: 300px;
+    text-align: right;
+    opacity: 1;
+    position: fixed;
+    color: green;
+    z-index: 1;
+}
+
+.right {
+    font-family: 'Anton', sans-serif;
+    font-size: 300px;
+    text-align: right;
+    opacity: 1;
+    position: fixed;
+    color: green;
+    z-index: 1;
+}
+
+
+}
+@media screen and (max-width: 500px) {
+    .games {
+        padding: 25px 180px 50px 0px;
+        margin: 0px 0px 0px 175px;
+        text-align: center;
+    }
+    
+    .images {
+        padding: 20px 0px 50px 0px;
+    }
+    
+    .right {
+        font-size: 150px;
+    }
+    
+    .left {
+        font-size: 150px;
+    }
 }
