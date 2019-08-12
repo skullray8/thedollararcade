@@ -38,23 +38,18 @@ body {
     z-index: 1;
 }
 
-
-}
 @media screen and (max-width: 500px) {
     .games {
         padding: 25px 180px 50px 0px;
         margin: 0px 0px 0px 175px;
         text-align: center;
     }
-    
     .images {
         padding: 20px 0px 50px 0px;
     }
-    
     .right {
         font-size: 150px;
     }
-    
     .left {
         font-size: 150px;
     }
